@@ -1,4 +1,5 @@
 #pragma once
+#include "include.h"
 
 class Ilog
 {
@@ -9,4 +10,5 @@ public :
 private :
 	Table table_;
 };
+
 
