@@ -7,5 +7,5 @@ int main()
 {
 	cout << "hello world!" << endl;
 	LogVertical log("C:\\Users\\sangg\\Desktop\\logs\\test.txt");
-
+	log.Get();
 }
