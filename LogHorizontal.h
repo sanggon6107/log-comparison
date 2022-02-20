@@ -5,6 +5,7 @@
 
 class LogHorizontal : public Ilog
 {
+public :
 	LogHorizontal();
 };
 

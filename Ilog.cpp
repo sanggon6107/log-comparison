@@ -5,3 +5,5 @@ void Ilog::merge(Ilog& log_1, Ilog& log_2)
 {
 	// ¸ÓÁö. 
 }
+
+Ilog::~Ilog() {}
