@@ -6,6 +6,6 @@
 class LogHorizontal : public Ilog
 {
 public :
-	LogHorizontal();
+	LogHorizontal(string& path);
 };
 

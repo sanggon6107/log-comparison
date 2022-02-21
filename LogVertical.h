@@ -5,5 +5,5 @@
 class LogVertical : public Ilog
 {
 public :
-	LogVertical(string path);
+	LogVertical(string& path);
 };
