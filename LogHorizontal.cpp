@@ -14,12 +14,13 @@ LogHorizontal::LogHorizontal(string& path)
 		{
 			auto itr = sregex_token_iterator(begin(line), end(line), re, -1);
 			auto itr_end = sregex_token_iterator();
+			vector<string> vector;
 			while (itr != itr_end)
 			{
-				cout << *itr << " ";
+				vector.emplace_back(itr->str());
 				++itr;
 			}
-
+			Set(vector);
 		}
 	}
 	// 일단 파일을 읽을 때 vector<vector<string>>, 즉 테이블에 전부 담아놓고,

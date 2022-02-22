@@ -8,8 +8,11 @@ int main()
 	string path = "C:\\Users\\sangg\\Desktop\\logs\\test.txt";
 	string path_horizontal = "C:\\Users\\sangg\\Desktop\\logs\\test-horizontal.txt";
 	LogVertical log(path);
-	// LogHorizontal log_horizontal(path_horizontal);
-	cout << "get : " << endl;
+	LogHorizontal log_horizontal(path_horizontal);
+	cout << "get(Vertical) : " << endl;
 	log.Get();
+
+	cout << "get(Horizontal) : " << endl;
+	log_horizontal.Get();
 
 }
