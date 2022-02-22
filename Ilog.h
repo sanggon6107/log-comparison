@@ -11,7 +11,6 @@ public :
 	void Get() const;
 private :
 	Table table_;
-	unordered_map<string, string> log_data_;
 };
 
 

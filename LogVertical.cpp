@@ -4,28 +4,21 @@
 
 LogVertical::LogVertical(string& path)
 {
-	string line; // 향후 필요없어질 예정
-	string data_key;
-	string data_value;
+	string temp;
 	
 	ifstream file(path);
 	if (!file.is_open()) { cout << "ERROR : file open failed." << endl; }
 	else
 	{
-		while (getline(file, data_key, ','))
+		while (getline(file, temp, ','))
 		{
-			//vector<string> vector{}; // 없어질 예정
-			//vector.push_back(line); // 없어질 예정
+			vector<string> vector{};
+			vector.push_back(move(temp));
 
-			//cout << line; // 없어질 예정
+			getline(file, temp);
+			vector.push_back(move(temp));
 
-			getline(file, data_value);
-			//vector.push_back(line); // 없어질 예정
-			//cout << line << endl;  // 없어질 예정
-			cout << data_key << " " << data_value << endl;
-			//Set(vector); // 없어질 예정
-			Set(data_key, data_value);
-			
+			Set(vector);
 			
 		}
 
