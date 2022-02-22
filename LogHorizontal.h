@@ -7,5 +7,6 @@ class LogHorizontal : public Ilog
 {
 public :
 	LogHorizontal(string& path);
+	void SymmetryOperation();
 };
 
