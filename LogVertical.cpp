@@ -39,3 +39,8 @@ LogVertical::LogVertical(LogHorizontal& log_horizontal)
 		Set(temp);
 	}
 }
+
+void LogVertical::Comparison(LogVertical& log_vertical)
+{
+
+}

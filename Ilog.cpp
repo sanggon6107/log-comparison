@@ -1,10 +1,6 @@
 #include "Ilog.h"
 #include "include.h"
 
-void Ilog::Comparison(Ilog& log_1, Ilog& log_2)
-{
-	// ¸ÓÁö. 
-}
 
 Ilog::~Ilog() {}
 
@@ -22,3 +18,8 @@ void Ilog::Get() const
 }
 
 Table& Ilog::TableData() { return table_; }
+
+void Ilog::ExportToCsv()
+{
+
+}
