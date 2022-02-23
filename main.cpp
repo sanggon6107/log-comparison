@@ -15,4 +15,6 @@ int main()
 	cout << "get(Horizontal) : " << endl;
 	log_horizontal.Get();
 
+	LogVertical log_converted(log_horizontal);
+	log_converted.Get();
 }

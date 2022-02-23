@@ -20,3 +20,5 @@ void Ilog::Get() const
 		cout << endl;
 	}
 }
+
+Table& Ilog::TableData() { return table_; }

@@ -8,7 +8,7 @@ LogHorizontal::LogHorizontal(string& path)
 	if (!file.is_open()) { cout << "ERROR : file open failed." << endl; }
 	else
 	{
-		regex re(",");
+		regex re(", ");
 		string line;
 		while ( getline(file, line) )
 		{
