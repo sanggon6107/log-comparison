@@ -17,4 +17,8 @@ int main()
 
 	LogVertical log_converted(log_horizontal);
 	log_converted.Get();
+	
+	log.Comparison(log_converted);
+	log.Get();
+	
 }
