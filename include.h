@@ -8,7 +8,7 @@
 #include <unordered_map>
 #include <iterator>
 
-enum class KeyVal : int {KEY = 0 , VALUE = 1};
+enum KeyVal {KEY = 0 , VALUE = 1};
 
 using namespace std;
 
