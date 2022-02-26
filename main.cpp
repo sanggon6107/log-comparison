@@ -5,8 +5,8 @@
 
 int main()
 {
-	string path = "C:\\Users\\sangg\\Desktop\\logs\\test.txt";
-	string path_horizontal = "C:\\Users\\sangg\\Desktop\\logs\\test-horizontal.txt";
+	string path = "test.txt";
+	string path_horizontal = "test-horizontal.txt";
 	LogVertical log(path);
 	LogHorizontal log_horizontal(path_horizontal);
 	cout << "get(Vertical) : " << endl;
@@ -17,8 +17,5 @@ int main()
 
 	LogVertical log_converted(log_horizontal);
 	log_converted.Get();
-	
-	log.Comparison(log_converted);
-	log.Get();
 	
 }

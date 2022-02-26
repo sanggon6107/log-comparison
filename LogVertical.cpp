@@ -44,6 +44,7 @@ void LogVertical::Comparison(LogVertical& log_vertical)
 {
 	// 한계 : TableData()와 맞는 것을 log_vertical에서 찾지 못하면 비교하지 못한채로 놔둔다.
 	//		  새로운 테이블 만들어야?
+	//		  Ilog 상속받은 Merger 만들까?
 	for (int this_idx = 0; this_idx < TableData().size(); this_idx++)
 	{
 		for (int log_idx = 0; log_idx < this_idx; log_idx++)
