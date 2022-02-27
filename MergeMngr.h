@@ -9,4 +9,3 @@ class MergeMngr : public Ilog
 public :
 	MergeMngr(LogVertical& log_a, LogVertical& log_b);
 };
-
